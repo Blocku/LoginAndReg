@@ -80,11 +80,16 @@ a{
 /*Form*/
 .form_container{
     position: absolute;
+    max-width: 320px;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 101;
     background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1);
 }
 .form_close{
     position: absolute;
@@ -94,6 +99,16 @@ a{
     font-size: 22px;
     opacity: 0.7;
     cursor: pointer;
+}
+.form_container h2{
+    font-size: 22px;
+    color:#0b0217 ;
+    text-align: center;
+
+}
+.input_box{
+    position: relative;
+    margin-top: 30px;
 }
 
 
