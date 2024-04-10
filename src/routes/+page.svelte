@@ -6,7 +6,7 @@
         School
     </a>
 
-    <BtnMenu/>
+    <Menu/>
 
     <div class="hidden h-auto w-auto md:flex gap-7" >
         <button class="font-medium text-zinc-500 hover:text-black transition-all" >Sign up</button>
@@ -18,6 +18,6 @@
 
 <script lang='ts' >
 
-    import BtnMenu from "../components/BtnMenu.svelte"
+    import Menu from "../components/Menu.svelte"
 
 </script>
