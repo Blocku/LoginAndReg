@@ -34,8 +34,8 @@
     </div>
 
     <div class="hidden h-auto w-auto md:flex gap-7" >
-        <button class="font-medium text-zinc-500 hover:text-black transition-all" >Sign up</button>
-        <button class="font-medium text-white bg-black  py-1 px-7 rounded-xl  duration-200 hover:bg-zinc-700 transition-all" >Sign in</button>
+        <a class="flex justify-center items-center" href="/" ><button class="font-medium text-zinc-500 hover:text-black transition-all" >Sign up</button></a>
+        <a class="flex justify-center items-center" href="/" ><button class="font-medium text-white bg-black  py-1.5 px-7 rounded-xl  duration-200 hover:bg-zinc-700 transition-all" >Sign in</button></a>
     </div>
 
 </header>
