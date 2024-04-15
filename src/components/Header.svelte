@@ -21,10 +21,10 @@
     
     <div class:menuInactive = {menu === false} class:menuActive = {menu === true} >
         <nav>
-            <ul class="flex flex-col p-1 space-y-1 absolute right-0 -top-0.5 h-auto w-40 rounded-lg bg-white shadow-lg border-2 border-zinc-200" >
+            <ul class="flex flex-col p-1 space-y-1 absolute right-0 -top-0.5 h-auto w-40 rounded-lg bg-white shadow-sm border-2 border-zinc-200" >
                 <!-- <a href="/"><li class="p-1 px-3 hover:bg-zinc-100 w-full h-auto font-medium text-base rounded-md" >Home</li></a> -->
                 <a href="/"><li class="p-1 px-3 hover:bg-zinc-100 w-full h-auto font-medium text-base rounded-md" >Profile</li></a>
-                <a href="/"><li class="p-1 px-3 hover:bg-zinc-100 w-full h-auto font-medium text-base rounded-md" >Settings</li></a>
+                <a href="/"><li class="p-1 px-3 hover:bg-zinc-100 w-full h-auto font-mediumd text-base rounded-md" >Settings</li></a>
                 <li class="border border-zinc-200 w-full rounded-full " ></li>
                 <!-- <a href="/"><li class="p-1 px-3 hover:bg-zinc-100 w-full h-auto font-medium text-base rounded-md" >Log out</li></a>-->
                 <a href="/form/"><li class="p-1 px-3 hover:bg-zinc-100 w-full h-auto font-medium text-base rounded-md" >Sign in</li></a>
